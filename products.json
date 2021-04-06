@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Inflatables Boost/Stoke <br>Complete with bar and lines",
+        "price": 1410.99,
+        "image": { "fields": { "file": { "url": "./images/BOOST2_CloseUp-04.jpg"} } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Radical Boards",
+        "price": 1200.99,
+        "image": { "fields": { "file": { "url": "./images/Radical5-Studio-02.jpg"} } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Sonic Race Kites",
+        "price": 3112.99,
+        "image": { "fields": { "file": { "url": "./images/BOOST2_CloseUp-04.jpg"} } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Peak Kites",
+        "price": 922.99,
+        "image": { "fields": { "file": { "url": "./images/PEAK3-Gallery01-1024x672.jpg"} } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Speed Kites",
+        "price": 2888.99,
+        "image": { "fields": { "file": { "url": "./images/2009_Speed3-1.jpg"} } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Split Boards",
+        "price": 1332.99,
+        "image": { "fields": { "file": { "url": "./images/R5_CloseUp01.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "FlyDoor Boards",
+        "price": 1245.99,
+        "image": { "fields": { "file": { "url": "./images/R5_Action05.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Accessories",
+        "price": 33.99,
+        "image": { "fields": { "file": { "url": "./images/Radical5-Studio-08.jpg"  } } }
+      }
+    }
+  ]
+}
