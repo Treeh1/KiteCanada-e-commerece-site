@@ -1,10 +1,3 @@
-// const client = contentful.createClient({
-//   // This is the space ID. A space is like a project folder in Contentful terms
-//   space: "bqnqpddc2vdh",
-//   // This is the access token for this space. Normally you get both ID and the token in the Contentful web app
-//   accessToken: "LLeCWeAspWhhuwQVR3YqeWHZECXGcNKgdKVA__qKifY"
-// });
-// console.log(client);
 
 // variables
 const cartBtn = document.querySelector(".cart-btn");
@@ -46,9 +39,7 @@ function smoothScroll(target, duration){
       };
 
     requestAnimationFrame(animation);
-
-  
-    console.log(startPosition)
+   console.log(startPosition)
 }
 
 var section1 = document.querySelector('.banner-btn');
@@ -77,17 +68,6 @@ menuBtn.addEventListener('click', () => {
 class Products{
   async getProducts() { 
    try {
-  
-    // let contentful = await client.getEntries({
-    //   content_type: "<kiteboardingCanStore>"
-    // });
-    // console.log(contentful);
-
-    // client
-    // .getEntry("5PeGS2SoZGSa4GuiQsigQu")
-    // .then(entry => console.log(entry))
-    // .catch(err => console.log(err));
-
       let result = await fetch("products.json");
       let data = await result.json();
 
